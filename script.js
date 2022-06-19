@@ -45,6 +45,6 @@ async function getJokes(){
     }
 }
 btn.addEventListener('click', () =>{
-    audioElement.play();
     getJokes();
+    audioElement.play();
 });
